@@ -4,7 +4,7 @@
 |---|---|
 | **Case ID** | 001 |
 | **Date of Investigation** | 2026-07-10 |
-| **Analyst** | Jangho K. |
+| **Analyst** | Jangho H. |
 | **Alert Source** | SIEM — "Suspicious Email Detected: Possible Phishing" |
 | **Severity (as triggered)** | Medium |
 | **Category** | Phishing / Credential Harvesting |
