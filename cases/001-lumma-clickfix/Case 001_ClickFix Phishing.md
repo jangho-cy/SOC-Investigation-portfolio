@@ -198,11 +198,15 @@ A search for other recipients of the same email returned no results; no other us
 
 ## 10. Recommendations
 
-**1. Restrict mshta.exe execution via application control (after baselining legitimate usage)**
+**1. Restrict mshta.exe execution via application control (after baselining legitimate usage)**  
+
      - Depends on company if it is not used, block or limit used of 'mshta' execute.
-**2. Add detection rule**
+**2. Add detection rule**  
+
      - Add a detection rule for powershell.exe spawning mshta.exe with an external URL argument, and for command lines containing string-replace obfuscation patterns.
-**3. Filter new registered domain**
+**3. Filter new registered domain**  
+
      - There is a possibility of registered domain right before the attack 
-**4. User training**
+**4. User training**  
+
      - The method 'ClickFix' requires the user to put command into themself. It means that it's not only require technical but also human factor.
