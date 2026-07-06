@@ -148,7 +148,7 @@ After checking file hash of this file in Virustotal,'21/59 security vendors flag
 | Initial Access | Phishing: Spearphishing Link | T1566.002 | Phishing email with link to fake Windows 11 page |
 | Execution | User Execution: Malicious Copy and Paste | T1204.004 | User pasted ClickFix command into Win+R |
 | Execution | Command and Scripting Interpreter: PowerShell | T1059.001 | powershell -w 1 executed the pasted command |
-| Stealth | Obfuscated Files or Informationr | T1027 | -replace ']' reconstructed mshta.exe at runtime | 
+| Stealth | Obfuscated Files or Information | T1027 | -replace ']' reconstructed mshta.exe at runtime | 
 | Stealth | System Binary Proxy Execution: Mshta | T1218.005 | mshta.exe proxied execution of remote payload |
 
 
@@ -158,7 +158,7 @@ After checking file hash of this file in Virustotal,'21/59 security vendors flag
 
 1. Malicious infrastructure - domain flagged as Lumma Stealer in Threat intelligence; payload file flagged malicious on VirusTotal.
 2. Confirmed user interaction - proxy logs confirm the recipient accessed the phishing domain.
-3. Confiremed malicious execution - the endpoint process chain (explorer.exe -> powershell.exe -> mshta.exe) shows an obfuscated command executed and retrieved a remote Lumma Stealer payload.
+3. Confirmed malicious execution - the endpoint process chain (explorer.exe -> powershell.exe -> mshta.exe) shows an obfuscated command executed and retrieved a remote Lumma Stealer payload.
 
 ## 8. Scope Assessment
 
