@@ -128,7 +128,7 @@ In the second event, after the first powershell code be executed to apply 'repla
 
 After checking file hash of this file in Virustotal,'21/59 security vendors flagged this file as malicious' indicated. 
 
-![Virrustotal](image.png)
+![Virrustotal](virustotal-maloy-hash.png)
 
 
 ## 5. Indicators of Compromise (IOCs) 
